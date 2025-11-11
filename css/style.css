@@ -171,3 +171,37 @@ html {
   border-bottom: 0.1rem solid #d5d5d5;
   color: var(--blanco);
 }
+
+@media (max-width: 56.5rem) {
+  :target {
+    scroll-margin-top: 12rem;
+  }
+}
+
+form {
+  margin-top: 1rem;
+}
+
+textarea {
+  width: 100%;
+  max-width: 60rem;
+  font-size: 1.6rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid var(--color-borde);
+  resize: none;
+}
+
+button[type="submit"] {
+  background: var(--color-principal);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: #086482;
+}
