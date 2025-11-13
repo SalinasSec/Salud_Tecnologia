@@ -45,10 +45,10 @@ header p {
   text-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 1);
 }
 header h1 {
-  font-size: 5rem;
+  font-size: 6rem;
 }
 header p {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 @media (max-width: 70rem) {
   header h1 {
@@ -207,4 +207,31 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background: #086482;
+}
+
+@media (max-width:32rem) {
+  header h1 {
+    font-size: 3rem;
+  }
+  header p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width:76.8rem) {
+  header h1 {
+    font-size: 5rem;
+  }
+  header p {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width:42.5rem) {
+  header h1 {
+    font-size: 4rem;
+  }
+  header p {
+    font-size: 1.3rem;
+  }
 }
